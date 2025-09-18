@@ -1,57 +1,40 @@
-📚 Online Bookstore Sales Analysis
+# 📚 Online Bookstore – Sales Analysis (SQL)
 
-This project contains SQL queries for exploring and analyzing an Online Bookstore dataset. It demonstrates how to perform basic, intermediate, and advanced analytics on books, customers, and orders tables.
+A comprehensive set of SQL scripts to explore and analyze an **Online Bookstore** dataset. This project demonstrates how to build insights from raw transactional data using SQL — from basic exploration to advanced analytics.
 
-📂 Project Structure
+---
 
-OnlineBookstore-Sales-Analysis.sql – Contains all SQL commands to:
+## 🔎 About the Project
+This repository contains an SQL script, **`OnlineBookstore-Sales-Analysis.sql`**, which:
+- Sets up the `onlinebookstore_db` database.
+- Previews the `books`, `customers`, and `orders` tables.
+- Executes step-by-step SQL queries (basic ➡ intermediate ➡ advanced) to extract business insights.
 
-Create and use the onlinebookstore_db database.
+It’s ideal for students and professionals learning SQL for data analytics.
 
-Preview the books, customers, and orders tables.
+---
 
-Run exploratory, intermediate, and advanced analysis queries.
+## 🌟 Features
+- **Database Setup**: Automatically creates and switches to the database.
+- **Data Exploration**: Filter books by genre, publication year, and price.
+- **Customer Analytics**: Identify Canadian customers, repeat buyers, top spenders.
+- **Sales Metrics**: Compute total revenue, books sold per genre, and bestseller lists.
+- **Inventory Monitoring**: Track current stock and detect low-stock titles.
+- **High-Value Orders**: Highlight orders above a certain monetary threshold.
 
-🔎 Key Features
+---
 
-Database Setup: Automatically creates and switches to onlinebookstore_db.
+## 🗂 Dataset Structure
+The project assumes three main tables:
+| Table       | Description                      |
+|-------------|----------------------------------|
+| `books`     | Book details (title, genre, author, price, stock, year) |
+| `customers` | Customer information (name, country, city, etc.) |
+| `orders`    | Transaction data (date, quantity, total amount, book ID) |
 
-Data Exploration: View books by genre, year, price, and stock.
+---
 
-Customer Insights: Identify Canadian customers, bulk buyers, repeat customers, and top spenders.
+## 🛠 Technologies Used
+- **SQL (MySQL / MariaDB)**  
+- Recommended tools: MySQL Workbench
 
-Sales Metrics: Calculate total revenue, books sold per genre, bestsellers, and top authors.
-
-Inventory Analytics: Monitor stock levels and remaining stock after fulfilling orders.
-
-High-Value Transactions: Detect high-value orders and premium books.
-
-🛠️ Technologies Used
-
-SQL (MySQL / MariaDB)
-
-Tools: phpMyAdmin or any SQL client (MySQL Workbench, DBeaver, etc.)
-
-🚀 How to Use
-
-Import or open OnlineBookstore-Sales-Analysis.sql in your SQL client.
-
-Execute step by step:
-
-Step 1: Create and select the database.
-
-Step 2: Preview tables (books, customers, orders).
-
-Step 3: Run the analysis queries section by section.
-
-📊 Example Insights
-
-Total stock available.
-
-Most expensive and least stocked books.
-
-Top 3 most expensive Fantasy books.
-
-Total revenue and best-selling book.
-
-Cities with high-spending customers.
